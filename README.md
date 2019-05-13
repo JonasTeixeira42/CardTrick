@@ -9,3 +9,7 @@ Run **npm install** to install all dependencies in package.json
 ### `2º npm start`
 
 Run **npm start** to run the app in development mode, then open http://localhost:3000 and you can check the test project 
+
+### `3º npm run build`
+
+Run **npm run build** to create the build directory with a production build of the app
