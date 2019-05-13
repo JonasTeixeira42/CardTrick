@@ -35,7 +35,6 @@ class CardTrick extends Component {
     axios
       .get('https://deckofcardsapi.com/api/deck/new/draw/?count=21')
       .then( response => {
-        console.log(response.data.cards)
         this.spreadCards(response.data.cards);
       }).catch( response => {
         alert('Something went wrong, try again later!');
