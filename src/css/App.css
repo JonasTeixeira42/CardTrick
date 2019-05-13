@@ -1,0 +1,12 @@
+body {
+    background-color: #00d2d3;
+}
+
+.App, .App * {
+    color: #FFF;
+}
+
+header {
+    font-weight: 700;
+    font-size: 30px
+}

@@ -1,0 +1,57 @@
+.row .deck-number {
+    position: relative;
+    padding: 3%;
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 12%;
+    float: left;
+    cursor: pointer;
+}
+
+.row .item {
+    position: relative;
+    float: left;
+    padding: 2px;
+    border-radius: 10px;
+    height: 12%;
+    width: 10%;
+    background: #CCC;
+    margin: 7px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.row .item img {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    clear: both;
+}
+
+@media (max-width: 768px) {
+
+    .row .deck-number, .row .item {
+        float: none;
+        height: 50px;
+    }
+
+    .row .deck-number {
+        width: 60%
+    }
+
+    .row .item {
+        height: 120px;
+        width: 60%;
+        margin: 5px;
+    }
+
+    .row {
+        margin: 0;
+        float: left;
+        width: 33.33%;
+        clear: none;
+    }
+
+}
