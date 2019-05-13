@@ -112,7 +112,7 @@ class CardTrick extends Component {
         {
           this.counter === 2 &&
           <div className="text-center">
-              <p>STEP 3: Guess what ? Same as step 2</p>
+              <p>STEP 3: Same as step 2!</p>
           </div>
         }
         {
