@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import '../../css/Card.css';
+import React from "react";
+import PropTypes from "prop-types";
+import "../../css/Card.css";
 
 const Card = (props) => (
     <div className="item">

@@ -1,7 +1,7 @@
-import React from 'react';
-import Modal from 'react-bootstrap/Modal';
-import PropTypes from 'prop-types';
-import Button from './Button'
+import React from "react";
+import Modal from "react-bootstrap/Modal";
+import PropTypes from "prop-types";
+import Button from "./Button"
 
 const ResultModal = (props) => {
     return(

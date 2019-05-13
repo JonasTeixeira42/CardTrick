@@ -101,20 +101,20 @@ class CardTrick extends Component {
         <div className="text-center"><p>After this, you will clutch your pearls or get you money back!</p></div>
         <div style={{marginTop: '30px'}}></div>
         {
-            !this.counter &&
-            <div className="text-center"><p>STEP 1: Pick a card and click on the deck where it is</p></div>
+          !this.counter &&
+          <div className="text-center"><p>STEP 1: Pick a card and click on the deck where it is</p></div>
         }
         {
-            this.counter === 1 &&
-            <div className="text-center">
-                <p>STEP 2: Look for the card you chosen before and click on the deck where it is</p>
-            </div>
+          this.counter === 1 &&
+          <div className="text-center">
+              <p>STEP 2: Look for the card you chosen before and click on the deck where it is</p>
+          </div>
         }
         {
-            this.counter === 2 &&
-            <div className="text-center">
-                <p>STEP 3: Guess what ? Same as step 2</p>
-            </div>
+          this.counter === 2 &&
+          <div className="text-center">
+              <p>STEP 3: Guess what ? Same as step 2</p>
+          </div>
         }
         {
           Object.entries(this.state.decks).map( (item, index) => {
